@@ -5,7 +5,7 @@
 class ofxMacSystemProfiler: public ofBaseApp{
     
 public:
-    void setup();
+    static void init();
     static string get(string property);
     static map<string, string> systemInfo;
 };
